@@ -1678,6 +1678,10 @@ pricing
   position: relative;
   top: -15px;
 }
+.currency {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .pricing-item .pricing-body .price-wrapper .price {
   font-weight: 700;
   font-size: 34px;

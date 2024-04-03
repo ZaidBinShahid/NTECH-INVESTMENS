@@ -46,11 +46,9 @@ function isValidMobile(mobile) {
   let mobileRegex = /^\d{10}$/;
   return mobileRegex.test(mobile);
 }
-alert("news ")
 
 // Function to submit the form
 function submitFormNews() {
-alert("news ")
   let name = document.getElementById('name').value.trim();
   let email = document.getElementById('email').value.trim();
   let mobile = document.getElementById('mobile').value.trim()

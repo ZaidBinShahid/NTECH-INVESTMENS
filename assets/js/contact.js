@@ -136,6 +136,6 @@ function submitForm() {
       data: obj,
     }).done(function(data){
       console.log(data);
-       alert("PDF is Send via Email");
+       alert("mail send");
     });
 }
