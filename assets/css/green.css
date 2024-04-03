@@ -517,7 +517,7 @@ header
 .header-area .main-nav .nav {
   float: left;
   margin-top: 27px;
-  margin-left: 80px;
+  margin-left: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1130,6 +1130,10 @@ welcome
   padding-left: 5px;
   position: relative;
   z-index: 2;
+}
+
+::placeholder {
+  font-size: 12px;
 }
 
 @media (max-width: 1200px) {
@@ -2329,6 +2333,9 @@ pages
   .page .cover {
     margin-top: 80px;
   }
+  .document {
+    margin-top: 50px;
+  }
   .page .cover h1 {
     font-size: 26px !important;
     line-height: 36px !important;
@@ -2772,6 +2779,39 @@ contact
   width: 250px;
 }
 
+.error{
+  margin-top: 5px;
+  float: right;
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+}
+/* select {
+  margin-left: 15px;
+} */
+#selectError {
+  /* margin-left: 20px; */
+  float: right;
+}
+
+@media screen and (max-width: 768px) {
+  .error {
+    margin-top: 5px;
+      font-size: 11px; /* Adjust font size for smaller screens */
+      font-weight: bold;
+  }
+  label, .select{
+    font-size: 12px;
+  }
+  .selectError {
+    margin-left: 50px;
+  }
+  .contact-text, .urgent {
+    text-align: center;
+  }
+}onsultancy{
+  margin-top: 800px;
+}
 @media (max-width: 991px) {
   .contact {
     overflow: initial !important;
