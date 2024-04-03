@@ -43,6 +43,7 @@ require './vendor/autoload.php';
         $mail->setFrom("zaidbinshahid92@gmail.com");
         $mail->addAddress($email);     // Add a recipient
         // $mail->AddEmbeddedImage('./logo.png',"logo");
+        $mail->AddEmbeddedImage('C:\xampp\htdocs\NTECH INVESTMENS LTD\assets\images\image-2.png',"logo");
 
         $mail->Subject = $subject;
 
@@ -175,7 +176,8 @@ require './vendor/autoload.php';
                                     <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:times new roman,times;" align="left">
         
                                       <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                      <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: times new roman,times; font-size: 32px; font-weight: 400;"><span><span>Heading</span></span>
+                                      <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: times new roman,times; font-size: 32px; font-weight: 400;"><span><span>
+                                      <img align="center" border="0" src="cid:logo" width="52.2" class="v-src-width v-src-max-width"/> NTECH INVESTMENT</span></span>
                                       </h1>
                                       <!--[if mso]></td></tr></table><![endif]-->
         
