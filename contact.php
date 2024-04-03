@@ -364,6 +364,7 @@ require './vendor/autoload.php';
         
         </html>
         
+        
          ';
 
         $mail->send();

@@ -175,7 +175,7 @@ require './vendor/autoload.php';
                                     <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:times new roman,times;" align="left">
         
                                       <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                      <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: times new roman,times; font-size: 32px; font-weight: 400;"><span><span>Weekly Newsletter</span></span>
+                                      <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: times new roman,times; font-size: 32px; font-weight: 400;"><span><span>Heading</span></span>
                                       </h1>
                                       <!--[if mso]></td></tr></table><![endif]-->
         
@@ -292,7 +292,7 @@ require './vendor/autoload.php';
           <!--[if IE]></div><![endif]-->
         </body>
         
-        </html>  
+        </html> 
         ';
 
         $mail->send();
